@@ -12,12 +12,12 @@ const messages = [
 
 body {
   font-family: sans-serif;
-  color: #333;
+  color: #070606;
 }
 
 .steps {
   width: 600px;
-  background-color: #efe8e8;
+  background-color: #dcbcbc;
   border-radius: 7px;
   padding: 25px 100px;
   margin: 100px auto;
