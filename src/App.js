@@ -2,6 +2,7 @@ import { useState } from "react";
 const messages = [
   "Learn React ⚛️",
   "Apply for jobs 💼",
+  "Give an Interview",
   "Invest your new income 🤑",
 ];
 function App() {
@@ -10,7 +11,7 @@ function App() {
     setStep(step === 1 ? step : step - 1);
   }
   function handleNext() {
-    setStep(step === 3 ? step : step + 1);
+    setStep(step === 4 ? step : step + 1);
   }
   return (
     <div className="steps">
@@ -18,6 +19,7 @@ function App() {
         <div className={step >= 1 ? "active" : ""}>1</div>
         <div className={step >= 2 ? "active" : ""}>2</div>
         <div className={step >= 3 ? "active" : ""}>3</div>
+        <div className={step >= 4 ? "active" : ""}>4</div>
       </div>
       <p className="message">
         {" "}
